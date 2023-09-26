@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Me Gusta</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navegacion">
+            <div class="titulo">
+                <h1>Network</h1>
+            </div>
+        </nav>
+    </header>
+    <div class="encabezado">
+        <h1>Your Feed</h1>
+    </div>
+    <main class="contenedor">
+        
+        <aside>
+            <div class="definicion">
+                <img src="./img/user-circle.png" alt="imagen-usuario">
+                <a href="#">add an avatar</a>
+                <h5>James Doe</h5>
+                
+            </div>
+        </aside>
+        <div class="col1">
+            <div class="card">
+                <div class="row">
+                    <div class="izq">
+                        <h2>Neil M</h2>
+                    </div>
+                    <div class="der">
+                        <p><span id="like1">9</span> like(s)</p>
+                        <button onclick="addLike1(this)">Like</button>
+                    </div> 
+                </div>
+                <div class="abajo">
+                    <h5>I just set up this new discord bot, let me know what you all think. <a href="#">link</a></h5>
+                </div>
+            </div>
+            <div class="card">
+                <div class="row">
+                    <div class="izq">
+                        <h2>Nicole k</h2>
+                    </div>
+                    <div class="der">
+                        <p ><span id="like2">12</span> like(s)</p>
+                        <button onclick="addLike2(this)">Like</button>
+                    </div> 
+                </div>
+                <div class="abajo">
+                    <h5>Justfinished my <a href="#">next comic,</a> check it out.</h5>
+                </div>
+            </div>
+            <div class="card">
+                <div class="row">
+                    <div class="izq">
+                        <h2>Jim R</h2>
+                    </div>
+                    <div class="der">
+                        <p><span id="like3">9</span> like(s)</p>
+                        <button onclick="addLike3(this)">Like</button>
+                    </div> 
+                </div>
+                <div class="abajo">
+                    <h5>I can't stop listening to the<a href="#"> new album.</a> Who else is liking it?</h5>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
